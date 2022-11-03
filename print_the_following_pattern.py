@@ -1,7 +1,6 @@
-n=int(input())
-for i in range(n):
-    c=0
-    for j in range(n-i):
-        c+=1
-        print(c,end='')
+N=int(input())
+for i in range(N):
+    for j in range(N):
+        print(N-j,end=" ")
     print()
+        
