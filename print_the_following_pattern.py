@@ -1,8 +1,8 @@
 N=int(input())
-K=ord("A")
 for i in range(N):
-    K=ord("A")+i
-    for j in range(N):
-        print(chr(K),end=" ")
+    for j in range(1,N-1):
+        print(j,end="")
+    for j in range(1,N-2):
+        print(j,end="")
     print()
-    
+        
